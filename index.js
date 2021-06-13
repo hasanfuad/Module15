@@ -24,3 +24,14 @@ y = x-y;
 x = x - y;
 
 console.log(x+" "+ y);
+
+// destructing
+
+let p = 5;
+let q = 7;
+
+console.log("P: "+p+"; Q: "+q);
+
+[p,q] = [q,p]
+
+console.log("P: "+p+"; Q: "+q);
